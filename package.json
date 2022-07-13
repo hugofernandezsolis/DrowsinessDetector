@@ -1,0 +1,20 @@
+{
+  "name": "driverdrowsinessdetector",
+  "version": "1.0.0",
+  "description": "Drowsiness Detection System written in C++",
+  "main": "index.js",
+  "scripts": {
+    "build": "cmake . -B build && cmake --build build",
+    "start": "npm run build && ./build/DrowsinessDetector"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugofernandezsolis/DrowsinessDetector.git"
+  },
+  "author": "Hugo Fernández Solís",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hugofernandezsolis/DrowsinessDetector/issues"
+  },
+  "homepage": "https://github.com/hugofernandezsolis/DrowsinessDetector#readme"
+}

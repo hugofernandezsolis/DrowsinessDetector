@@ -7,9 +7,11 @@
  * passed to the programs and executes the corresponding tasks.
  */
 
- #include <iostream>
+#include <iostream>
+#include <opencv2/opencv.hpp>
 
- int main(int arg, char* argv[]) {
+
+int main(int arg, char* argv[]) {
   std::cout << "Hello World!" << std::endl;
   return EXIT_SUCCESS;
- }
+}
