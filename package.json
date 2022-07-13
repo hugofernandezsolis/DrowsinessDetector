@@ -1,11 +1,12 @@
 {
-  "name": "driverdrowsinessdetector",
+  "name": "drowsinessdetector",
   "version": "1.0.0",
   "description": "Drowsiness Detection System written in C++",
   "main": "index.js",
   "scripts": {
     "build": "cmake . -B build && cmake --build build",
-    "start": "npm run build && ./build/DrowsinessDetector"
+    "start": "npm run build && ./build/DrowsinessDetector",
+    "clean": "rm -r build"
   },
   "repository": {
     "type": "git",
